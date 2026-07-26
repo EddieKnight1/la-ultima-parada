@@ -1,0 +1,43 @@
+name: Release Module
+ 
+on:
+  push:
+    tags:
+      - "v*.*.*"
+ 
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+ 
+      - name: Extract tag version
+        id: tag
+        run: echo "version=${GITHUB_REF#refs/tags/v}" >> "$GITHUB_OUTPUT"
+ 
+      - name: Extract module.json version
+        id: module
+        run: echo "version=$(jq -r '.version' module.json)" >> "$GITHUB_OUTPUT"
+ 
+      - name: Verify tag matches module.json version
+        run: |
+          if [ "${{ steps.tag.outputs.version }}" != "${{ steps.module.outputs.version }}" ]; then
+            echo "El tag (v${{ steps.tag.outputs.version }}) no coincide con la versión de module.json (${{ steps.module.outputs.version }})"
+            exit 1
+          fi
+ 
+      - name: Create module.zip
+        run: |
+          zip -r module.zip module.json packs assets README.md CHANGELOG.md LICENSE.md -x "*.DS_Store"
+ 
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            module.zip
+            module.json
+          generate_release_notes: true
+ 

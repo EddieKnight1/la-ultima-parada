@@ -1,0 +1,66 @@
+{
+  "id": "la-ultima-parada",
+  "title": "La Última Parada",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p><span style=\"border:0px;font-family:'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:16px;font-style:normal;font-weight:400;margin:0px;padding:0px;vertical-align:baseline;outline:0px;color:oklab(0.952693 0.000792831 -0.00253612);font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:break-spaces;background-color:oklab(0.780873 0.0514458 0.159034 / 0.0392157);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\">Los caminos secundarios rara vez ofrecen comodidad, pero a veces ofrecen lo único que importa: un alto en el camino.</span></p><p><span style=\"border:0px;font-family:'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:16px;font-style:normal;font-weight:400;margin:0px;padding:0px;vertical-align:baseline;outline:0px;color:oklab(0.952693 0.000792831 -0.00253612);font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:break-spaces;background-color:oklab(0.780873 0.0514458 0.159034 / 0.0392157);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\">Por algún motivo vuestro viaje os lleva a una posada aislada, un punto discreto entre rutas poco transitadas. No es un lugar famoso ni especialmente acogedor, pero cumple su función: comida caliente, techo firme y la promesa de descanso antes de continuar.</span></p><p><span style=\"border:0px;font-family:'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:16px;font-style:normal;font-weight:400;margin:0px;padding:0px;vertical-align:baseline;outline:0px;color:oklab(0.952693 0.000792831 -0.00253612);font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:break-spaces;background-color:oklab(0.780873 0.0514458 0.159034 / 0.0392157);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\">Sin embargo, algo en el ambiente resulta… extraño.<br>Hay algo fuera de lugar.<br>Las conversaciones se interrumpen antes de tiempo.<br>Algunas preguntas no obtienen respuesta.<br>Y hay zonas de la posada que nadie parece querer mencionar.</span></p><p><span style=\"border:0px;font-family:'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:16px;font-style:normal;font-weight:400;margin:0px;padding:0px;vertical-align:baseline;outline:0px;color:oklab(0.952693 0.000792831 -0.00253612);font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:break-spaces;background-color:oklab(0.780873 0.0514458 0.159034 / 0.0392157);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\">No habéis llegado buscando problemas.<br>Pero pasar tiempo aquí significa, inevitablemente, encontrarse algo más de lo que se ofrece a simple vista.</span></p>",
+  "authors": [
+    {
+      "name": "Eddie Knight",
+      "email": "me@eddieknight.com",
+      "url": "https://discord.gg/kwfQUjwYaD",
+      "discord": "eddieknight",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/EddieKnight1/la-ultima-parada",
+  "manifest": "https://github.com/EddieKnight1/la-ultima-parada/releases/latest/download/module.json",
+  "download": "https://github.com/EddieKnight1/la-ultima-parada/releases/latest/download/module.zip",
+  "readme": "https://raw.githubusercontent.com/EddieKnight1/la-ultima-parada/main/README.md",
+  "changelog": "https://raw.githubusercontent.com/EddieKnight1/la-ultima-parada/main/CHANGELOG.md",
+  "license": "https://raw.githubusercontent.com/EddieKnight1/la-ultima-parada/main/LICENSE.md",
+  "bugs": "https://github.com/EddieKnight1/la-ultima-parada/issues",
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "one-shot-la-ultima-parada",
+      "label": "one shot : La Última Parada",
+      "path": "packs/one-shot-la-ultima-parada",
+      "type": "Adventure",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "monks-active-tiles",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "michaelghelfi",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+2026/07/19-02:20:31.313219 7fd873fff6c0 Recovering log #150
+2026/07/19-02:20:31.376169 7fd873fff6c0 Delete type=0 #150
+2026/07/19-02:20:31.376303 7fd873fff6c0 Delete type=3 #148
+2026/07/19-02:22:52.653902 7fd672fef6c0 Level-0 table #155: started
+2026/07/19-02:22:52.653977 7fd672fef6c0 Level-0 table #155: 0 bytes OK
+2026/07/19-02:22:52.698178 7fd672fef6c0 Delete type=0 #153
+2026/07/19-02:22:52.810928 7fd672fef6c0 Manual compaction at level-0 from '!combats!tcJnKpm9jFd06Wra' @ 72057594037927935 : 1 .. '!combats!tcJnKpm9jFd06Wra' @ 0 : 0; will stop at (end)

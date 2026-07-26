@@ -1,0 +1,8 @@
+2026/07/19-02:08:44.141384 7fd888fed6c0 Recovering log #165
+2026/07/19-02:08:44.258673 7fd888fed6c0 Delete type=3 #163
+2026/07/19-02:08:44.258803 7fd888fed6c0 Delete type=0 #165
+2026/07/19-02:13:16.748851 7fd672fef6c0 Level-0 table #171: started
+2026/07/19-02:13:16.748919 7fd672fef6c0 Level-0 table #171: 0 bytes OK
+2026/07/19-02:13:16.793260 7fd672fef6c0 Delete type=0 #169
+2026/07/19-02:13:16.882533 7fd672fef6c0 Manual compaction at level-0 from '!messages!1mWF1tg2VtVmas98' @ 72057594037927935 : 1 .. '!messages!yqiCqNPfuLTA9auA' @ 0 : 0; will stop at (end)
+2026/07/19-02:13:16.882655 7fd672fef6c0 Manual compaction at level-1 from '!messages!1mWF1tg2VtVmas98' @ 72057594037927935 : 1 .. '!messages!yqiCqNPfuLTA9auA' @ 0 : 0; will stop at (end)
